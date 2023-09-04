@@ -165,13 +165,13 @@
     height: 450px;
 }
 
-.card_type_book{
+.card_type_book {
     background: url(../images/card-lot-02.jpg) lightgray 50% / cover no-repeat;
     width: 430px;
     height: 450px;
 }
 
-.card_type_picture{
+.card_type_picture {
     background: url(../images/card-lot-03.jpg) lightgray 50% / cover no-repeat;
     width: 430px;
     height: 450px;
@@ -249,7 +249,7 @@
     margin-left: 46px;
 }
 
-.info__item{
+.info__item {
     height: 388px;
     width: 885px;
     display: flex;
@@ -259,7 +259,7 @@
     margin-top: 100px;
 }
 
-.about__title{
+.about__title {
     position: absolute;
     color: #000;
     font-size: 40px;
@@ -270,7 +270,7 @@
     white-space: nowrap;
 }
 
-.about__text{
+.about__text {
     display: flex;
     flex-direction: column;
     gap: 25px;
