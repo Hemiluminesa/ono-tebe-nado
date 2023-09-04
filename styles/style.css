@@ -15,20 +15,20 @@
     justify-items: end;
 } 
 
-.header__links-list {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
+.header__links-list-item {
+    list-style: circle;
     text-underline-offset: 4px;
-    margin-right: 85px;
 }
 
-.header__links-link {
+.header__links-list {
     color: #000;
+    display: flex;
+    flex-direction: row;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    gap: 30px;
+    white-space: nowrap;
+    font-weight: normal;
+    margin-right: 57px;
 }
 
 .header__links-list-item_no-bullit {
@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
     color: #FFF;
-    padding: 165px 50px 237px 50px;
+    padding: 165px 50px 227px 50px;
     font-size: 100px;
     text-transform: uppercase;
     z-index: 1;
@@ -85,6 +85,7 @@
 .aligned-text_center {
     text-align: center;
     letter-spacing: 30px;
+    margin-top: 10px;
 }
 
 .aligned-text_right {
@@ -112,11 +113,12 @@
 .cover__description-text {
     color: #FFF;
     position: absolute;
-    padding: 667px 385px 62px 422px;
+    padding: 668px 385px 62px 422px;
     font-size: 22px;
     line-height: 28px;
-    word-spacing: 17px;
+    word-spacing: 18px;
     text-transform: uppercase;
+    margin-top: 3px;
 }
 
 .bet-button {
@@ -135,6 +137,7 @@
 /* Lots */
 .lots {
     padding: 180px 50px 181px 50px;
+    margin-bottom: 50px;
 }
 
 .lots__heading {
@@ -180,7 +183,7 @@
     position: absolute;
     font-size: 22px;
     line-height: 120%;
-    padding: 50px 40px 348px 40px;
+    padding: 52px 40px 348px 45px;
     text-decoration-line: underline;
     text-transform: uppercase;
 }
@@ -192,7 +195,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-    padding: 304px 40px 50px 40px;
+    padding: 305px 40px 50px 40px;
 }
 
 .card__text2 {
@@ -203,7 +206,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-    padding: 160px 40px 50px 40px;
+    padding: 163px 40px 50px 40px;
 }
 
 
@@ -215,7 +218,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-    padding: 208px 40px 50px 40px;
+    padding: 210px 40px 50px 40px;
 }
 
 .lots__look-more-link {
@@ -223,7 +226,8 @@
     position: absolute;
     font-size: 20px;
     margin-left: 40px;
-    margin-top: 30px;
+    margin-top: 31px;
+    text-underline-offset: 4px;
 }
 
 /* About */
@@ -233,7 +237,8 @@
     padding: 1px 910px 248px 0px;
     background: url(../images/Ellipse\ 10.svg);
     background-repeat: no-repeat;
-    margin-left: 95px;
+    margin-left: 145px;
+    margin-top: 55px;
 }
 
 .about__logo-image {
@@ -250,7 +255,7 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    margin-left: 455px;
+    margin-left: 360px;
     margin-top: 100px;
 }
 
@@ -275,7 +280,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 100px;
+    margin-top: 148px;
 }
 
 
@@ -284,6 +289,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 180px 50px 90px 50px;
+    margin-top: 65px;
 }
 
 .footer__menu {
