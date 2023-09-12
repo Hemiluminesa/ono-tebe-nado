@@ -27,7 +27,7 @@
       <a class="header__logo">
         <img
           class="header__logo-image"
-          src="./images/logo-black.svg"
+          src="./images/logo.svg"
           alt="Логотип проекта"
         />
       </a>
@@ -38,36 +38,40 @@
       </address>
     </header>
     <main class="cover content-section">
-      <div class="overlay"></div> <!-- НЕ РАБОТАЕТ??? -->
-        <h1 class="cover__title">
-          <span class="accent-span aligned-text">о<span class="accent-span letter-spacing-extended">но</span></span>
-          <span class="accent-span aligned-text_center">те<span class="accent-span letter-spacing-extended">бе</span></span>
-          <span class="accent-span letter-spacing-extended">н<span class="accent-span aligned-text_right">ад<span class="accent-span no-letter-spacing">о</span></span></span>
-        </h1>
+      <h1 class="cover__title">
+        <span class="accent-span aligned-text">о<span class="accent-span letter-spacing-extended">но</span></span>
+        <span class="accent-span aligned-text_center">те<span class="accent-span letter-spacing-extended">бе</span></span>
+        <span class="accent-span letter-spacing-extended">н<span class="accent-span aligned-text_right">ад<span class="accent-span no-letter-spacing">о</span></span></span>
+      </h1>
+      <div class="cover__description">
         <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-        <button class="bet-button" type="button">Сделать ставку</button> <!-- НЕ РАБОТАЕТ??? -->
+        <button class="bet-button" type="button">Сделать ставку</button>
+      </div>
     </main>
     <section class="lots content-section">
       <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="overlay content-section" href="#0"></a>
+            <div class="overlay content-section"></div>
             <article class="card_type_film">
-              <p class="card__title">Фильм режиссёра, который бросил киношколу</p>
+              <a href="#0"></a>
+              <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
               <p class="card__text1">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
           </li>
           <li class="lots__card-list-item">
-            <a class="overlay content-section" href="#0"></a>
+            <div class="overlay content-section"></div>
             <article class="card_type_book">
-              <p class="card__title">Книга, где описан один скучный день из жизни рекламного агента</p>
+              <a href="#0"></a>
+              <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
               <p class="card__text2">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </article>
           </li>
           <li class="lots__card-list-item">
-            <a class="overlay content-section" href="#0"></a>
+            <div class="overlay content-section"></div>
             <article class="card_type_picture">
-              <p class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</p>
+              <a href="#0"></a>
+              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               <p class="card__text3">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
             </article>
           </li>
