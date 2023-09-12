@@ -22,7 +22,7 @@
     flex-direction: row;
     font-size: 18px;
     gap: 30px;
-    margin-right: 60px; 
+    margin-right: 60px;
     padding-bottom: 5px;
     white-space: nowrap;
     font-weight: normal;
@@ -119,10 +119,8 @@
     height: 52px;
     margin-top: 655px;
     margin-left: 78px;
-
     border: 1px solid #FFF;
     background-color: transparent;
-
     font-size: 22px;
     color: #FFF;
     text-transform: uppercase;
@@ -212,7 +210,6 @@
     padding: 163px 40px 50px 40px;
 }
 
-
 .card__text3 {
     color: #FFF;
     display: flex;
@@ -234,7 +231,6 @@
 }
 
 /* About */
-
 .about__logo {
     display: flex;
     padding: 1px 910px 248px 0px;
@@ -285,7 +281,6 @@
     line-height: normal;
     margin-top: 148px;
 }
-
 
 /* Footer */
 .footer {
