@@ -1,8 +1,4 @@
 .content-section {
-    /* box-sizing: border-box;
-    min-height: 100%;
-    height: auto;
-    margin: auto; */
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -26,10 +22,10 @@
     flex-direction: row;
     font-size: 18px;
     gap: 30px;
-    white-space: nowrap;
-    font-weight: normal;
     margin-right: 60px; 
     padding-bottom: 5px;
+    white-space: nowrap;
+    font-weight: normal;
 }
 
 .header__links-list-item_no-bullit {
